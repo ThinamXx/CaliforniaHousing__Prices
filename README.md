@@ -70,6 +70,7 @@ from sklearn.model_selection import RandomizedSearchCV
 
 **Random Forest Regressor**
 - Random Forests work by training many Decision Trees on random subset of the features and then averaging out the predictions. Building a model on top of many other models is called Ensemble Learning and it is often a great way to push Machine Learning Algorithms even further. 
+
   - **Grid Search and Randomized Search**: I will use Scikit Learn's Grid Search to find the great combinations of hyperparameters values. It will evaluate all possible combinations of hyperparameters values using Cross Validation. The Grid Search Approach is fine when there is relatively few combinations. When the hyperparamters search space is large it is preferable to use Randomized Search. It evaluates the given number of random combinations by selecting a random value for each hyperparameter at every iteration.
   
 ![Image](https://github.com/ThinamXx/300Days__MachineLearningDeepLearning/blob/main/Images/Day%2013.PNG)
